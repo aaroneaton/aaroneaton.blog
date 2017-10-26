@@ -23,13 +23,13 @@ For those reasons, every customer is funneled through the documentation page bef
 
 ## Browsing
 
-[<img class="alignnone size-full wp-image-644" src="http://channeleaton.com/content/uploads/2015/06/OptinMonster_Docs.png" alt="OptinMonster Documentation Categories" width="980" height="532" srcset="https://aaroneaton.blog/app/uploads/2015/06/OptinMonster_Docs.png 980w, https://aaroneaton.blog/app/uploads/2015/06/OptinMonster_Docs-300x163.png 300w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />](http://channeleaton.com/content/uploads/2015/06/OptinMonster_Docs.png)
+![Docs Categories]('./OptinMonster_Docs.png')
 
 All of our documentation is split into 6 categories. We found that 6 was enough to find what you’re looking for but not so many as to overwhelm the customer with choices. Documents can be found in just two clicks.
 
 ## Real-time search
 
-[<img class="alignnone size-full wp-image-646" src="http://channeleaton.com/content/uploads/2015/06/OptinMonster_Docs1.png" alt="OptinMonster Documentation Search" width="981" height="296" srcset="https://aaroneaton.blog/app/uploads/2015/06/OptinMonster_Docs1.png 981w, https://aaroneaton.blog/app/uploads/2015/06/OptinMonster_Docs1-300x91.png 300w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />](http://channeleaton.com/content/uploads/2015/06/OptinMonster_Docs1.png)
+![Docs Search]('./OptinMonster_Docs1.png')
 
 The jewel of the documentation page is our real-time search. By entering just a few characters in to the search box you can find a list of related articles updating automatically below. All of the search functionality happens on the client-side.
 
@@ -77,7 +77,7 @@ Data is collected on this query argument during form submission so we can learn 
 
 Compared to our [old support and documentation](https://old.optinmonster.com/docs/) workflow I think we’ve made great strides. Customers are now able to find an answer to their question easier than ever before and we are better equipped to adapt to their changing needs.
 
-[<img class="alignnone size-full wp-image-648" src="http://channeleaton.com/content/uploads/2015/06/optinmonster-old-new.png" alt="Old & New OptinMonster Docs" width="1000" height="484" srcset="https://aaroneaton.blog/app/uploads/2015/06/optinmonster-old-new.png 1000w, https://aaroneaton.blog/app/uploads/2015/06/optinmonster-old-new-300x145.png 300w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />](http://channeleaton.com/content/uploads/2015/06/optinmonster-old-new.png)
+![Old vs. New]('./OptinMonster_Docs2.png')
 
 I can see us needing to optimize the search functionality in the future. Fuse.js can handle a great number of documents but we must remain vigilant when it comes to front-end speed and experience. There’s also the question of how much data `wp_localize_script()` can handle.
 
