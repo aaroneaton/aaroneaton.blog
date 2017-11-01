@@ -2,9 +2,9 @@
 title: Grit
 date: "2017-01-02T21:08:16Z"
 path: "/grit/"
-category:
-  - Personal
+category: "Personal"
 ---
+
 We all face challenges in our daily lives. The difference between those who go to sleep feeling fulfilled and those who don't is the former group makes the choice to push through the challenge. In a word: Grit.
 
 Yeah, you were up all night with your kid who was vomiting every hour. The next day was filled with chores and assorted tasks that needed to get done. Grit is sucking it up and checking off your to-do list. Having an amazing spouse helps. 🙂

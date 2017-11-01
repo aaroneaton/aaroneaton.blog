@@ -2,8 +2,7 @@
 title: Leave it better than you found it
 date: "2017-01-12T21:31:48Z"
 path: "/better-than-you-found-it/"
-category:
-  - Development
+category: "Development"
 ---
 
 The Boy Scouts and many outdoorsmen/women have a code of leaving the campsite better than you found it. That means picking up trash even if you didn't leave it. When you finish your stay the campsite should be pristine.

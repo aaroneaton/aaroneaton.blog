@@ -2,8 +2,7 @@
 title: Disable comments on all WordPress pages at once
 date: "2017-01-03T20:58:56Z"
 path: "/disable-comments-wordpress-pages/"
-category:
-  - Development
+category: "Development"
 ---
 Comments on pages by default. Not sure why that is a thing but we're talking about 13 year old software here. It's easy enough to turn off comments manually. Page by page. Why do work by hand when you could automate it?
 

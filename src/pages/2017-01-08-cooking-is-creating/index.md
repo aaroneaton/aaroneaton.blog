@@ -2,8 +2,7 @@
 title: Cooking is Creating
 date: "2017-01-08T20:59:42Z"
 path: "/cooking-is-creating/"
-category:
-  - Personal
+category: "Personal"
 ---
 In support of my [2017 tech trends](https://aaroneaton.blog/wp/2017/01/tech-trends-2017/)&nbsp;I've done my best to look away from screens and create more with my hands. Cooking is one of the ultimate creative outlets. It's conjuring something (hopefully) amazing from basic ingredients and feeding your family in the process. Better yet, you know what you're putting into your body. Not that I worry about eating organic or not enjoy the occasional patty melt from Whataburger.
 

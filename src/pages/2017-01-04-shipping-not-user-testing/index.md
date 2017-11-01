@@ -2,8 +2,7 @@
 title: Shipping, Not User Testing
 date: "2017-01-04T20:04:45Z"
 path: "/shipping-not-user-testing/"
-category:
-  - Development
+category: "Development"
 ---
 Back in November Jason Fried (CEO of Basecamp) published a treasure trove of an article detailing how they, the team, [structure their work](https://m.signalvnoise.com/how-we-set-up-our-work-cbce3d3d9cae). If you haven't read it yet stop what you're doing and take a few minutes to do so. I took a few moments after my third reading to dig through the comments. In response to a question about user testing Jason responded with this:
 

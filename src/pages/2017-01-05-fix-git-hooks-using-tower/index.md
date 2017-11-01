@@ -2,9 +2,7 @@
 title: Fix your git hooks when using Tower
 date: "2017-01-05T20:36:54Z"
 path: "/fix-git-hooks-using-tower/"
-image: /app/uploads/2017/01/tower_app_icon_512x512.png
-category:
-  - Development
+category: "Development"
 ---
 One of our newest OptinMonster developers has already made a big splash by introducing even more automation to our development flow. For the past two years (TWO!) this has been our usual conversation after pushing some changes:
 

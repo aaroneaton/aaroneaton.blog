@@ -3,8 +3,7 @@ title: Finally. An easy way to style dropdowns (select elements)
 date: "2015-05-20T09:35:43Z"
 path: "/an-easy-way-to-style-dropdowns/"
 image: /app/uploads/2015/05/Select_js_–_Styleable_select_elements_built_on_Tether_js-825x414.png
-category:
-  - Development
+category: "Development"
 ---
 Do you know what I hate the most about CSS? Styling form elements.
 

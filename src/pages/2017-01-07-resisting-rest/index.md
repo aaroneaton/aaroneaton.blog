@@ -2,8 +2,7 @@
 title: (Resisting) Rest
 date: "2017-01-07T11:10:56Z"
 path: "/resisting-rest/"
-categories:
-  - Personal
+category: "Personal"
 ---
 It's difficult.
 

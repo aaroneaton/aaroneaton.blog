@@ -2,8 +2,7 @@
 title: My tech trends for 2017
 date: "2017-01-06T21:00:46Z"
 path: "/tech-trends-2017/"
-category:
-  - Personal
+category: "Personal"
 ---
 Everyone is trying to predict the year's biggest global tech trends. AI, self-driving cars and VR usually populate the top of the list. While those things are neat it's tough to see the immediate effect to my life. Instead I decided to create my own list.
 

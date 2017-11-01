@@ -2,8 +2,7 @@
 title: Make hay
 date: "2017-01-11T21:07:20Z"
 path: "/make-hay/"
-category:
-  - Personal
+category: "Personal"
 ---
 There's an old saying, "Make hay while the sun shines". It means you should get your work done while the conditions are favorable. No distractions. Don&#8217;t even _think_ of dilly-dallying!
 

@@ -2,8 +2,7 @@
 title: Hello, 2017
 date: "2017-01-01T22:39:15Z"
 path: "/hello-2017/"
-category:
-  - Personal
+category: "Personal"
 ---
 It's 2017.
 

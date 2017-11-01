@@ -3,8 +3,7 @@ title: Improving the support ticket submission experience
 date: "2015-06-09T12:18:03Z"
 path: "/improving-the-support-ticket-submission-experience/"
 image: /app/uploads/2015/06/support-825x510.jpg
-category:
-  - OptinMonster
+category: "OptinMonster"
 ---
 During the design phase of the new [OptinMonster SaaS](https://aaroneaton.blog/wp/recommends/optinmonster/) we realized that there was one killer feature that could set us apart from our competition. It wasn't more beautiful themes, a super-duper form builder or a brand new type of optin form. Don’t get me wrong. All of those features are important to us and are in the works, but&#8230;
 

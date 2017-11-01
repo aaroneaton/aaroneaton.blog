@@ -2,8 +2,7 @@
 title: Not for long
 date: "2017-01-09T11:53:05Z"
 path: "/not-for-long/"
-category:
-  - Development
+category: "Development"
 ---
 So many of us (developers) suffer from an extreme form of hubris.
 
