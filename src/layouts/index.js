@@ -4,6 +4,7 @@ import { Container } from 'react-responsive-grid'
 
 import { rhythm, scale } from '../utils/typography'
 
+/** @TODO: Set up category template & query **/
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
@@ -14,7 +15,6 @@ class Template extends React.Component {
       rootPath = __PATH_PREFIX__ + `/`
     }
 
-    if (location.pathname === rootPath) {
       header = (
         <h1
           style={{
@@ -34,29 +34,7 @@ class Template extends React.Component {
             J. Aaron Eaton
           </Link>
         </h1>
-      )
-    } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
-            marginBottom: rhythm(-1),
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            J. Aaron Eaton
-          </Link>
-        </h3>
-      )
-    }
+      );
     return (
       <Container
         style={{
