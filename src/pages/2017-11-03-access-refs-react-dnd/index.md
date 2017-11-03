@@ -14,7 +14,7 @@ speeds up our development.
 
 One problem I've run into is accessing a child of the drop target element to calculate some hover interactions. The 
 React DnD docs suggest using `findDOMNode(component)` but performing the DOM tree searches during the hover callback 
-(which fires seemingly ever 10ms) can bring the browser to a standstill with any significant number of nodes.
+(which fires seemingly every 10ms) can bring the browser to a standstill with any significant number of nodes.
 
 So instead I found React refs are accessible from within the React DnD callbacks with `component.decoratedComponentInstance`. This is a significantly faster method of pulling data out of the DOM and provides 
 access only to the DOM elements you really need. Here's how to make use of the refs:
