@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
 
 import { rhythm, scale } from '../utils/typography'
+import 'prismjs/themes/prism-okaidia.css'
 
 /** @TODO: Set up category template & query **/
 class Template extends React.Component {

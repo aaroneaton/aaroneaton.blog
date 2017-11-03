@@ -3,11 +3,3 @@ p code {
 	background: #efefef;
 	border-radius: 3px;
 }
-
-.gatsby-highlight {
-	padding: 15px;
-	background: #efefef;
-	border-radius: 5px;
-	overflow-x: auto;
-	margin-bottom: 15px;
-}
