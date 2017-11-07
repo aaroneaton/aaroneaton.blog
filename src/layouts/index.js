@@ -1,13 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
-import 'prismjs/themes/prism-okaidia.css'
-import { rhythm, scale } from '../utils/typography'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Link from 'gatsby-link';
+import 'prismjs/themes/prism-okaidia.css';
+import { rhythm, scale } from '../utils/typography';
 
 /** @TODO: Set up category template & query * */
 class Template extends React.Component {
 	render() {
-		const { children } = this.props
+		const { children } = this.props;
 
 		// const rootPath = (typeof __PREFIX_PATHS__ !== 'undefined' && __PREFIX_PATHS__) ? `${__PREFIX_PATHS__}/` : '/';
 
@@ -30,26 +30,26 @@ class Template extends React.Component {
 					J. Aaron Eaton
 				</Link>
 			</h1>
-		)
+		);
 		return (
 			<div
 				style={{
 					maxWidth: rhythm(24),
 					padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
 					marginLeft: 'auto',
-					marginRight: 'auto'
+					marginRight: 'auto',
 				}}
 			>
 				{header}
 				{children()}
-				<span style={{display: 'block', clear: 'both'}}>{' '}</span>
+				<span style={{ display: 'block', clear: 'both' }} />
 			</div>
-		)
+		);
 	}
 }
 
 Template.propTypes = {
 	children: PropTypes.func.isRequired,
-}
+};
 
-export default Template
+export default Template;
