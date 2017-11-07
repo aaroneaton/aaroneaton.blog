@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import { Container } from 'react-responsive-grid'
 import 'prismjs/themes/prism-okaidia.css'
 import { rhythm, scale } from '../utils/typography'
 
@@ -33,15 +32,18 @@ class Template extends React.Component {
 			</h1>
 		)
 		return (
-			<Container
+			<div
 				style={{
 					maxWidth: rhythm(24),
 					padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+					marginLeft: 'auto',
+					marginRight: 'auto'
 				}}
 			>
 				{header}
 				{children()}
-			</Container>
+				<span style={{display: 'block', clear: 'both'}}>{' '}</span>
+			</div>
 		)
 	}
 }
