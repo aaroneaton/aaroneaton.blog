@@ -22,13 +22,13 @@ For those reasons, every customer is funneled through the documentation page bef
 
 ## Browsing
 
-![Docs Categories]('./OptinMonster_Docs.png')
+![Docs Categories](./OptinMonster_Docs.png)
 
 All of our documentation is split into 6 categories. We found that 6 was enough to find what you’re looking for but not so many as to overwhelm the customer with choices. Documents can be found in just two clicks.
 
 ## Real-time search
 
-![Docs Search]('./OptinMonster_Docs1.png')
+![Docs Search](./OptinMonster_Docs1.png)
 
 The jewel of the documentation page is our real-time search. By entering just a few characters in to the search box you can find a list of related articles updating automatically below. All of the search functionality happens on the client-side.
 
@@ -76,7 +76,7 @@ Data is collected on this query argument during form submission so we can learn 
 
 Compared to our [old support and documentation](https://old.optinmonster.com/docs/) workflow I think we’ve made great strides. Customers are now able to find an answer to their question easier than ever before and we are better equipped to adapt to their changing needs.
 
-![Old vs. New]('./OptinMonster_Docs2.png')
+![Old vs. New](./OptinMonster_Docs2.png)
 
 I can see us needing to optimize the search functionality in the future. Fuse.js can handle a great number of documents but we must remain vigilant when it comes to front-end speed and experience. There’s also the question of how much data `wp_localize_script()` can handle.
 
