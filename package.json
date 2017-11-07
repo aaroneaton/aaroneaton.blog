@@ -26,14 +26,27 @@
     "gatsby-transformer-sharp": "^1.6.10",
     "lodash": "^4.15.0",
     "prismjs": "^1.8.3",
+    "prop-types": "^15.6.0",
     "react-responsive-grid": "^0.3.3",
     "typeface-merriweather": "^0.0.35",
     "typeface-montserrat": "^0.0.37",
     "typography-theme-wordpress-2016": "^0.15.1"
   },
   "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
     "gh-pages": "^0.12.0",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "remark-cli": "^4.0.0",
+    "remark-preset-lint-recommended": "^3.0.1",
+    "stylefmt": "^6.0.0",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0",
+    "write-good": "^0.11.3"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
@@ -47,9 +60,9 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public --fix .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "format": "prettier --trailing-comma es5 --single-quote --use-tabs --tab-width 4 --no-semi false --write 'src/**/*.js'",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",

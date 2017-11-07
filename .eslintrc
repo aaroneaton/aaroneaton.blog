@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+	"react/prefer-stateless-function": "off",
+	"react/prop-types": "off",
+	"react/no-danger": "off",
+	"react/jsx-indent": "off",
+	"react/jsx-indent-props": "off",
+	"react/jsx-filename-extension": "off",
+	"semi": ["error", "always"],
+	"no-undef": "off",
+	"import/no-extraneous-dependencies": "off",
+	"jsx-a11y/anchor-is-valid": "off",
+	"import/extensions": "off"
+  },
+  "settings": {
+	"import/core-modules": []
+  },
+  "env": {
+	"browser": true
+  }
+}
