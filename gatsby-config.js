@@ -3,6 +3,7 @@ module.exports = {
 	siteMetadata: {
 		title : "J. Aaron Eaton",
 		author: "J. Aaron Eaton",
+		siteUrl: `https://aaroneaton.blog`
 	},
 	plugins     : [
 		{
@@ -52,6 +53,9 @@ module.exports = {
 				pathToConfigModule: "src/utils/typography",
 			},
 		},
-		`gatsby-plugin-react-next`
+		`gatsby-plugin-react-next`,
+		{
+			resolve: `gatsby-plugin-sitemap`
+		}
 	],
 };
