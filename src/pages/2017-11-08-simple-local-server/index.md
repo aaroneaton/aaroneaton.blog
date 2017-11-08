@@ -11,6 +11,11 @@ In comes a great little NPM package [serve](https://www.npmjs.com/package/serve)
 
 So without further ado, my process:
 
+### Install the package
+```bash
+> npm i -g serve
+```
+
 ### Create the necessary files
 I first create a new temporary directory and add an `index.html` file.
 
