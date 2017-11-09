@@ -7,6 +7,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve("./src/templates/blog-post.js");
+    const categoryPage = path.resolve("./src/templates/category-page.js");
     resolve(
       graphql(
         `
@@ -16,6 +17,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             node {
               frontmatter {
                 path
+                category
               }
             }
           }
@@ -28,8 +30,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors);
         }
 
+        const categorySet = new Set();
+
         // Create blog posts pages.
         _.each(result.data.allMarkdownRemark.edges, edge => {
+          // Add the post to categories
+          if (edge.node.frontmatter.category) {
+            categorySet.add(edge.node.frontmatter.category);
+          }
           createPage({
             path: edge.node.frontmatter.path,
             component: blogPost,
@@ -38,6 +46,19 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             },
           });
         });
+
+        // Now create the category pages
+        const categoryList = Array.from(categorySet);
+        categoryList.forEach(category => {
+          createPage({
+            path: `/topic/${_.kebabCase(category.toLowerCase())}/`,
+            component: categoryPage,
+            context: {
+              category
+            }
+          });
+        });
+
       })
     );
   });
