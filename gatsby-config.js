@@ -1,11 +1,12 @@
 module.exports = {
 	pathPrefix: '/',
 	siteMetadata: {
-		title : "J. Aaron Eaton",
+		title: "J. Aaron Eaton",
 		author: "J. Aaron Eaton",
 		siteUrl: `https://aaroneaton.blog`
 	},
-	plugins     : [
+	plugins: [
+		`gatsby-plugin-sitemap`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
@@ -20,9 +21,9 @@ module.exports = {
 					{
 						resolve: `gatsby-remark-images`,
 						options: {
-							maxWidth            : 630,
+							maxWidth: 630,
 							linkImagesToOriginal: false,
-							sizeByPixelDensity  : true
+							sizeByPixelDensity: true
 						},
 					},
 					{
@@ -54,8 +55,5 @@ module.exports = {
 			},
 		},
 		`gatsby-plugin-react-next`,
-		{
-			resolve: `gatsby-plugin-sitemap`
-		}
 	],
 };
