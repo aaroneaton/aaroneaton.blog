@@ -59,11 +59,11 @@ export const query = graphql`
             slug
             categorySlug
           }
+          html
           frontmatter {
             title
             date
             category
-            description
           }
         }
       }

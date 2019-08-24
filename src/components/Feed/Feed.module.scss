@@ -10,7 +10,7 @@
     }
 
     &-title {
-      font-size: $typographic-base-font-size * 1.6875;
+      font-size: $typographic-base-font-size * 1.9;
       @include line-height(1.5);
       @include margin-top(0);
       @include margin-bottom(.5);
@@ -28,7 +28,7 @@
 
     }
 
-    &-description {
+    &-excerpt {
       font-size: $typographic-base-font-size;
       @include line-height(1);
       @include margin-bottom(.75);
