@@ -4,7 +4,7 @@ date: "2017-11-06"
 template: "post"
 slug: "/posts/stillness-of-hunting/"
 category: "Personal"
-tags: ["Hunting", "Mindfulness]
+tags: ["Hunting", "Mindfulness"]
 draft: false
 ---
 
