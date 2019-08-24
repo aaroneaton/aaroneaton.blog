@@ -7,7 +7,6 @@ category: "Personal"
 tags: ["Hunting", "Mindfulness"]
 draft: false
 ---
-
 ![In The Stand](/media/in-the-stand.jpg)
 
 Even when you come back empty-handed the time has not been wasted. Hunting provides us with so much more than meat.
