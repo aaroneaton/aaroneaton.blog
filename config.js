@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://aaroneaton.blog',
   pathPrefix: '/',
   title: 'J. Aaron Eaton',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: 'I write about whatever is on my mind.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'J. Aaron Eaton',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Software engineer, woodworker, father and husband',
     contacts: {
       twitter: 'aaroneaton',
       github: 'aaroneaton',
