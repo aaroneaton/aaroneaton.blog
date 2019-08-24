@@ -3,15 +3,16 @@
 
 .feed {
   &__item {
-    @include margin-bottom(1.25);
+    @include margin-bottom(3.25);
+		border-top: 1px solid #000000;
 
     &:last-child {
       @include margin-bottom(.5);
     }
 
     &-title {
-      font-size: $typographic-base-font-size * 1.9;
-      @include line-height(1.5);
+      font-size: $typographic-base-font-size * 2.5;
+      @include line-height(2);
       @include margin-top(0);
       @include margin-bottom(.5);
 
