@@ -4,9 +4,8 @@ date: "2015-05-20T09:35:43Z"
 template: "post"
 slug: "/posts/an-easy-way-to-style-dropdowns/"
 category: "Development"
-tags: ["Development"]
+tags: ["CSS"]
 draft: false
-description: "Foo"
 ---
 Do you know what I hate the most about CSS? Styling form elements.
 

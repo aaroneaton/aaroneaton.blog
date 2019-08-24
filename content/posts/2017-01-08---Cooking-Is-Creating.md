@@ -4,7 +4,7 @@ date: "2017-01-08T20:59:42Z"
 template: "post"
 slug: "/posts/cooking-is-creating/"
 category: "Personal"
-tags: ["Development"]
+tags: ["Cooking"]
 draft: false
 description: "Foo"
 ---

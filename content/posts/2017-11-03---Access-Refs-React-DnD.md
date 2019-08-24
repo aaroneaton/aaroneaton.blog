@@ -3,10 +3,9 @@ title: Accessing React refs in React-DnD
 date: "2017-11-03"
 template: "post"
 slug: "/posts/access-refs-react-dnd/"
-category: "React"
-tags: ["Development"]
+category: "Development"
+tags: ["React"]
 draft: false
-description: "Foo"
 ---
 
 My team and I at OptinMonster are in the process of building a true drag & drop solution for the campaign builder. 

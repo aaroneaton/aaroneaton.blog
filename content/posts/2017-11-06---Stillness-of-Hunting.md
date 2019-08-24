@@ -4,9 +4,8 @@ date: "2017-11-06"
 template: "post"
 slug: "/posts/stillness-of-hunting/"
 category: "Personal"
-tags: ["Development"]
+tags: ["Hunting", "Mindfulness]
 draft: false
-description: "Foo"
 ---
 
 ![In The Stand](/media/in-the-stand.jpg)

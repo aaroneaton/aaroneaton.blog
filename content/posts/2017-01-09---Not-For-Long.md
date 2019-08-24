@@ -4,9 +4,8 @@ date: "2017-01-09T11:53:05Z"
 template: "post"
 slug: "/posts/not-for-long/"
 category: "Development"
-tags: ["Development"]
+tags: ["Misc"]
 draft: false
-description: "Foo"
 ---
 So many of us (developers) suffer from an extreme form of hubris.
 

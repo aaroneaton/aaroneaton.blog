@@ -4,9 +4,8 @@ date: "2017-01-05T20:36:54Z"
 template: "post"
 slug: "/posts/fix-git-hooks-using-tower/"
 category: "Development"
-tags: ["Development"]
+tags: ["Git"]
 draft: false
-description: "Foo"
 ---
 One of our newest OptinMonster developers has already made a big splash by introducing even more automation to our development flow. For the past two years (TWO!) this has been our usual conversation after pushing some changes:
 

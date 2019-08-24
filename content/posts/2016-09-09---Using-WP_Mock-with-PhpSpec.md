@@ -4,9 +4,8 @@ date: "2016-09-09T21:12:30Z"
 template: "post"
 slug: "/posts/using-wp_mock-phpspec/"
 category: "Development"
-tags: ["Development"]
+tags: ["Testing"]
 draft: false
-description: "Foo"
 ---
 Over the last few weeks I've begun a push to increase our test coverage in [OptinMonster](https://aaroneaton.blog/wp/recommends/optinmonster/) with [PhpSpec](http://www.phpspec.net/en/stable/). Doing so will allow the team to release features with greater confidence and reduce bugs throughout the codebase. As tests were being written I quickly ran into issues mocking WordPress functions. Yep! [OptinMonster is written on top of WordPress](https://thomasgriffin.io/using-wordpress-as-a-saas-platform-with-optinmonster/)!
 

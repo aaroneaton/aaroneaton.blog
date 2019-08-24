@@ -6,7 +6,6 @@ slug: "/posts/fixing-woodworking-mistakes/"
 category: "Personal"
 tags: ["Woodworking"]
 draft: false
-description: "Foo"
 ---
 
 While making the [tea light centerpiece](/posts/first-woodworking-video/) I, of course, made some mistakes. Luckily, wood can be a forgiving medium. Here's a little video on how to fix those mistakes.

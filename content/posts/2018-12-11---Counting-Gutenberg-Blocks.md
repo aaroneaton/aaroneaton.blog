@@ -4,9 +4,8 @@ date: "2018-12-11"
 template: "post"
 slug: "/posts/counting-gutenberg-blocks/"
 category: "Development"
-tags: ["Development"]
+tags: ["WordPress"]
 draft: false
-description: "Foo"
 ---
 
 This week I was tasked with performing a quick audit on an existing client site for WordPress 5.0 compatibility. The site had already made use of Gutenberg so we were curious just how many blocks were in use.

@@ -6,7 +6,6 @@ slug: "/posts/first-woodworking-video/"
 category: "Personal"
 tags: ["Woodworking"]
 draft: false
-description: "Foo"
 ---
 
 I made this tea light centerpiece for my wife on Mother's Day 2019. This is the first project where I remembered to video the process, so enjoy!

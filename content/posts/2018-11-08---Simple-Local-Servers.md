@@ -4,9 +4,8 @@ date: "2017-11-08"
 template: "post"
 slug: "/posts/simple-local-servers/"
 category: "Development"
-tags: ["Development"]
+tags: ["Servers", "Testing"]
 draft: false
-description: "Foo"
 ---
 
 When testing many facets of the OptinMonster embed code I find myself needing a clean & quick HTML page on almost a daily basis. For most tasks throwing some code into [JSFiddle](https://jsfiddle.net) will do, but testing some of our more advanced targeting rules becomes onerous, if not impossible.

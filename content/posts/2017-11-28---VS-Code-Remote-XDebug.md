@@ -4,7 +4,7 @@ date: "2017-11-28"
 template: "post"
 slug: "/posts/vs-code-remote-xdebug/"
 category: "Development"
-tags: ["Development"]
+tags: ["Debugging"]
 draft: false
 description: "Foo"
 ---

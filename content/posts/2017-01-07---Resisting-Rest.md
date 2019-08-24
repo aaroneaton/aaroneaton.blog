@@ -4,9 +4,8 @@ date: "2017-01-07T11:10:56Z"
 template: "post"
 slug: "/posts/resisting-rest/"
 category: "Personal"
-tags: ["Development"]
+tags: ["Productivity"]
 draft: false
-description: "Foo"
 ---
 It's difficult.
 
