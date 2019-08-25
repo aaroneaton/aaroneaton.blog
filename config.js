@@ -7,8 +7,8 @@ module.exports = {
   subtitle: 'I write about whatever is on my mind.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 5,
+  googleAnalyticsId: 'UA-89777407-1',
   useKatex: false,
   menu: [
     {
