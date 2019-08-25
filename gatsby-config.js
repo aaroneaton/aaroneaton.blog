@@ -80,18 +80,19 @@ module.exports = {
                       fields {
                         slug
                       }
+                      excerpt
                       frontmatter {
                         title
                         date
                         template
                         draft
-                        description
                       }
                     }
                   }
                 }
               }
             `,
+          title: 'J. Aaron Eaton',
           output: '/rss.xml'
         }]
       }
